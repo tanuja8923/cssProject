@@ -1,0 +1,30 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#outer {
+    height: 400px;
+    width: 115px;
+    background-color: black;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.inner {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+
+#red {
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}

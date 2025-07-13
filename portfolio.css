@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url("port.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+}
+#tanuja {
+    height: 20px;
+    width: 90px;
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+}
+.container {
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+#name {
+    color: orangered;
+    text-decoration: none;
+    font-size: 20px;
+}
+#portfolio{
+    margin-left: 40px;
+    color: orangered;
+    text-decoration: solid orangered underline;
+    font-size: 15px;
+}
+.service {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+#hire {
+    height: 24px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 6px;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#exp {
+    height: 24px;
+    width: 80px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 6px;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.profile img{
+    border-radius: 70px;
+    width: 190px;
+    box-shadow: 3px 3px 10px black;
+}
+.inner {
+    height: 300px;
+    width: 850px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+
+}
+#but1 {
+      height: 20px;
+      width: 70px;
+      background-color: black;
+      color: white;
+      font-size: 13px;
+      font-family: 'Times New Roman', Times, serif;
+      border-radius: 5px;
+      margin-top: 19px;
+      font-weight: 600;
+}
+#but2 {
+    height: 20px;
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    margin-top: 19px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+#dev {
+    color: orangered;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#design {
+    font-size: 17px;
+    font-family: serif;
+    color: rgb(218, 240, 19);
+    font-weight: 600;
+    margin-top: 17px;
+}
+#but3 {
+    height: 20px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    margin-top: 19px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.bio {
+    height: 139px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+.con {
+    color: white;
+    font-size: 11px;
+    
+}
+.add {
+    color: white;
+    font-size: 10px;
+    font-family: inherit;
+}
+.link {
+    color: blue;
+    font-size: 10px;
+}
+
+#div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 25px;
+    width: 1017px;
+    background-color: rgb(81, 9, 81);
+    color: skyblue;
+    font-size: 10px;
+
+
+}
+.margin i {
+    margin-left: 25px;
+    padding-left: 20px;
+}
+#div1 {
+    color: black;
+    background-color: orange;
+    text-align: center;
+    font-size: 10px;
+}
