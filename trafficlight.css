@@ -3,6 +3,13 @@
     margin:0;
 }
 
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #outer {
     height: 400px;
     width: 115px;
