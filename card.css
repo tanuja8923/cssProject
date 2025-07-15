@@ -1,4 +1,10 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
     height: 100vh;
     width: 100vw;
     background-color:#4bb9e8;
@@ -8,7 +14,8 @@ body {
     
 }
 
-.outer {
+
+.box {
     height: 450px;
     width: 250px;
     background-color: white;
@@ -16,13 +23,18 @@ body {
     
 
 }
-#inner {
+.upper {
     height: 250px;
     width: 220px;
     background-color: rgb(27, 42, 255);
-    margin-left: 15px;
-    margin-top: 15px;
+    /* margin-left: 15px; */
+    /* margin-top: 15px; */
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    justify-content: center;
+    /* margin-bottom: 1rem; */
     box-shadow: 0 4px 5px black;
 }
 #success {
@@ -38,11 +50,4 @@ body {
     font-family: cursive;
    
 }
-#tanu {
-    margin-bottom:50px;
-    margin-left: 60px;
-    margin-right: 50px;
-    margin-top: 70px;
 
-    
-}
